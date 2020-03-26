@@ -32,9 +32,9 @@
 ##
 ##fd6a9f26a06ea3bc99616d4851b372ba
 
-Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser	
-Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope LocalMachine
-Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope Process
+# Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser	
+# Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope LocalMachine
+# Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope Process
 
 $principal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
 
@@ -61,7 +61,7 @@ if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) 
 
     Remove-Item -Recurse -Force $Target
 
-    "`nWinlogbeat Uninstall Successful."
+    # "`nWinlogbeat Uninstall Successful."
 
     #Close Powershell window
     Stop-Process -Id $PID
