@@ -1,0 +1,16 @@
+2020-01-15T12:47:01.437-0600	INFO	instance/beat.go:592	Home path: [C:\winlogbeat] Config path: [C:\winlogbeat] Data path: [C:\winlogbeat\data] Logs path: [C:\winlogbeat\logs]
+2020-01-15T12:47:01.438-0600	INFO	instance/beat.go:599	Beat UUID: 9500df8d-c13c-4a13-9f22-85a341ccc555
+2020-01-15T12:47:01.438-0600	INFO	[beat]	instance/beat.go:825	Beat info	{"system_info": {"beat": {"path": {"config": "C:\\winlogbeat", "data": "C:\\winlogbeat\\data", "home": "C:\\winlogbeat", "logs": "C:\\winlogbeat\\logs"}, "type": "winlogbeat", "uuid": "9500df8d-c13c-4a13-9f22-85a341ccc555"}}}
+2020-01-15T12:47:01.438-0600	INFO	[beat]	instance/beat.go:834	Build info	{"system_info": {"build": {"commit": "bd8922f1c7e93d12b07e0b3f7d349e17107f7826", "libbeat": "6.5.4", "time": "2018-12-17T20:37:05.000Z", "version": "6.5.4"}}}
+2020-01-15T12:47:01.438-0600	INFO	[beat]	instance/beat.go:837	Go runtime info	{"system_info": {"go": {"os":"windows","arch":"amd64","max_procs":12,"version":"go1.10.6"}}}
+2020-01-15T12:47:01.468-0600	INFO	[beat]	instance/beat.go:841	Host info	{"system_info": {"host": {"architecture":"x86_64","boot_time":"2020-01-10T10:07:54.57-06:00","name":"mmayfield-8A2TB0RH","ip":["fe80::f0f8:6135:b3dc:4df6/64","169.254.77.246/16","fe80::10e8:fdae:210:aa7d/64","169.254.170.125/16","fe80::2886:5f36:9fd9:7ecc/64","169.254.126.204/16","fe80::a113:12db:283e:9636/64","192.168.56.1/24","fe80::5556:44c:bcce:1c15/64","169.254.28.21/16","fe80::ec97:5a4e:7843:c7a6/64","169.254.199.166/16","fe80::f896:729b:618b:e897/64","192.168.0.9/24","::1/128","127.0.0.1/8"],"kernel_version":"10.0.17763.914 (WinBuild.160101.0800)","mac":["00:09:0f:fe:00:01","98:fa:9b:3e:62:39","00:09:0f:aa:00:01","0a:00:27:00:00:0a","48:89:e7:ed:97:8f","4a:89:e7:ed:97:8e","48:89:e7:ed:97:8e"],"os":{"family":"windows","platform":"windows","name":"Windows 10 Pro","version":"10.0","major":10,"minor":0,"patch":0,"build":"17763.914"},"timezone":"CST","timezone_offset_sec":-21600,"id":"503f147d-af8d-4edf-8e21-356ea7a1257b"}}}
+2020-01-15T12:47:01.469-0600	INFO	[beat]	instance/beat.go:870	Process info	{"system_info": {"process": {"cwd": "C:\\winlogbeat", "exe": "C:\\winlogbeat\\winlogbeat.exe", "name": "winlogbeat.exe", "pid": 2892, "ppid": 17384, "start_time": "2020-01-15T12:47:01.390-0600"}}}
+2020-01-15T12:47:01.469-0600	INFO	instance/beat.go:278	Setup Beat: winlogbeat; Version: 6.5.4
+2020-01-15T12:47:04.498-0600	INFO	add_cloud_metadata/add_cloud_metadata.go:319	add_cloud_metadata: hosting provider type not detected.
+2020-01-15T12:47:04.498-0600	INFO	elasticsearch/client.go:163	Elasticsearch url: https://espnap.vizion.ai:443
+2020-01-15T12:47:04.498-0600	INFO	[publisher]	pipeline/module.go:110	Beat name: mmayfield-8A2TB0RH
+2020-01-15T12:47:04.498-0600	INFO	beater/winlogbeat.go:68	State will be read from and persisted to C:\winlogbeat\data\.winlogbeat.yml
+2020-01-15T12:47:04.498-0600	INFO	elasticsearch/client.go:163	Elasticsearch url: https://espnap.vizion.ai:443
+2020-01-15T12:47:04.822-0600	INFO	elasticsearch/client.go:713	Connected to Elasticsearch version 6.5.4
+2020-01-15T12:47:04.822-0600	INFO	kibana/client.go:118	Kibana url: https://pnap.vizion.ai:443/kibana
+2020-01-15T12:47:07.429-0600	INFO	instance/beat.go:717	Kibana dashboards successfully loaded.

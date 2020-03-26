@@ -1,0 +1,15 @@
+update_time: 2020-02-26T18:48:36.2885577Z
+event_logs:
+- name: Application
+  record_number: 750
+  timestamp: 2020-02-26T18:48:29.7832801Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='Application' RecordId='750' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: Microsoft-Windows-DriverFrameworks-UserMode/Operational
+  record_number: 612
+  timestamp: 2020-02-26T16:20:35.4036112Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='Microsoft-Windows-DriverFrameworks-UserMode/Operational'
+    RecordId='612' IsCurrent='true'/>\r\n</BookmarkList>"
+- name: System
+  record_number: 2694
+  timestamp: 2020-02-26T18:35:23.9417605Z
+  bookmark: "<BookmarkList>\r\n  <Bookmark Channel='System' RecordId='2694' IsCurrent='true'/>\r\n</BookmarkList>"
