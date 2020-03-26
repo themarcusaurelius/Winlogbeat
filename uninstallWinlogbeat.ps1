@@ -32,13 +32,16 @@
 ##
 ##fd6a9f26a06ea3bc99616d4851b372ba
 
-# Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser	
-# Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope LocalMachine
-# Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope Process
+Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser	
+Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope LocalMachine
+Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope Process
 
 $principal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
 
 if($principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+    
+    Set-ExecutionPolicy Unrestricted
+
     #Change Directory to winlogbeat
     Set-Location -Path 'c:\Winlogbeat-master\winlogbeat'
 
