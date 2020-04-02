@@ -1,4 +1,4 @@
-## Winlogbeat - A Lightweight Shipper For Windows Event Logs.
+## A Lightweight Shipper For Windows Event Logs.
 
 Keeps a pulse on what's happening across Windows-based infrastructure. Winlogbeat streams Windows event logs to your Vizion Elastic App.
 
