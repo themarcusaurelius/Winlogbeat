@@ -6,7 +6,7 @@ Keeps a pulse on what's happening across Windows-based infrastructure. Winlogbea
 
 ### Windows:
 
-1) As administrator, enter the following command in Powershell or download the zip file here.
+1) As administrator, enter the following command in Powershell or download the zip file [here](https://github.com/themarcusaurelius/Winlogbeat/archive/master.zip).
 
 ```
 Start-BitsTransfer -Source 'https://github.com/themarcusaurelius/Winlogbeat/archive/master.zip' -Destination 'C:\Users\Administrator\Downloads\Winlogbeat.zip'
